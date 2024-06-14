@@ -1,15 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
+import './styles/Nav.css';
 
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <div>
-          <p>Test</p>
-        </div>
-      </header>
-    </div>
+    <nav className='nav-wrapper'>
+      <div className='logo-wrapper'>
+        <p>placeholder</p>
+      </div>
+      <div className='search-bar'>
+        <p>placeholder</p>
+      </div>
+      <div className='menu'>
+        <p>placeholder</p>
+      </div>
+    </nav>
   );
 }
 
